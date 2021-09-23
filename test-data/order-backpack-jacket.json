@@ -1,0 +1,49 @@
+{
+    "data": {
+        "Login": [
+            {
+                "username": ""
+            }
+        ],
+        "SelectProduct": [
+            {
+                
+            }
+        ],
+        "OpenCart": [
+            {
+                
+            }
+        ],
+        "Checkout": [
+            {
+                
+            }
+        ],
+        "FillInfoPage": [
+            {
+                
+            }
+        ],
+        "Continue": [
+            {
+                
+            }
+        ],
+        "VerifyCheckout": [
+            {
+                
+            }
+        ],
+        "Finish": [
+            {
+                
+            }
+        ],
+        "VerifyFinalMessage": [
+            {
+                
+            }
+        ]
+    }
+}

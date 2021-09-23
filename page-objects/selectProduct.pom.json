@@ -1,0 +1,5 @@
+{
+    "backpack": "[data-test='add-to-cart-sauce-labs-backpack']",
+    "password": "[data-test='password']",
+    "loginBtn": "[data-test='login-button']"
+}

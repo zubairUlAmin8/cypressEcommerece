@@ -1,0 +1,25 @@
+{
+  "name": "cypress-automation-framework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "all": "npm run -b chrome --headed",
+    "cy-open": "cypress open",
+    "flow": "cypress run -b chrome --headed --spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abdulaziz-raj/cypress-automation-framework.git"
+  },
+  "author": "Aziz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abdulaziz-raj/cypress-automation-framework/issues"
+  },
+  "homepage": "https://github.com/abdulaziz-raj/cypress-automation-framework#readme",
+  "dependencies": {
+    "cypress": "^8.4.1",
+    "mocha": "^9.1.1"
+  }
+}

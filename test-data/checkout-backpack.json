@@ -1,0 +1,43 @@
+{
+    "data": {        
+        "Login": [
+            {
+                "username": {"value":"standard_user"},
+                "password": {"value":"secret_sauce"},
+                "loginBtn": {"value": "click"}
+            }
+        ],
+        "SelectProduct": [
+            {
+                "backpack": {"value": "click"}
+            }
+        ],
+        "OpenCart": [
+            {
+                "cartLink": {"value": "click"}
+            }
+        ],
+        "Checkout": [
+            {
+                "checkoutBtn": {"value": "click"}
+            }
+        ],
+        "FillInfoPage": [
+            {
+                "firstName": {"value": "Test"},
+                "lastName": {"value": "User"},
+                "postalCode": {"value": "12345"}
+            }
+        ],
+        "Continue": [
+            {
+                "continueBtn": {"value": "click"}
+            }
+        ],
+        "VerifyCheckout": [
+            {
+
+            }
+        ]
+    }
+}
