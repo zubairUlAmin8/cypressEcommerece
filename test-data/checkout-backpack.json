@@ -36,7 +36,9 @@
         ],
         "VerifyCheckout": [
             {
-
+                "itemName": {"assert":"visible", "assert_value": "Sauce Labs Backpack"},
+                "itemPrice": {"assert":"visible", "assert_value": "$29.99"},
+                "total": {"assert":"visible", "assert_value": "Total: $32.39"}
             }
         ]
     }

@@ -24,6 +24,7 @@ export function PageAction(testData, pomData) {
     Object.keys(testData).forEach((data) => {
       var value = testData[data].value;
       var assert = testData[data].assert;
+      var assert_value = testData[data].assert_value;
       var pageObject = pomData[data];
       if (!!value) {
         cy.get(pomData[data]).then((element) => {
@@ -61,7 +62,7 @@ export function PageAction(testData, pomData) {
                 case "A":
                   cy.get(pageObject).click();
                   break;
-                }
+              }
             });
         });
       }
@@ -69,6 +70,9 @@ export function PageAction(testData, pomData) {
         cy.get(pomData[data])
           .eq(index)
           .should("be." + testData[data].assert);
+      }
+      if (!!assert_value) {
+        cy.get(pomData[data]).eq(index).invoke('text').should('eq', testData[data].assert_value);
       }
     });
   };
