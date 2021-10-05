@@ -1,5 +1,7 @@
 {
-    "itemName": ".inventory_item_name",
-    "itemPrice": ".inventory_item_price",
+    "itemName": ".inventory_item_name:eq(0)",
+    "itemPrice": ".inventory_item_price:eq(0)",
+    "itemName1": ".inventory_item_name:eq(1)",
+    "itemPrice1": ".inventory_item_price:eq(1)",
     "total": ".summary_total_label"
 }

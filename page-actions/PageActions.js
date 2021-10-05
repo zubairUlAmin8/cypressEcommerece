@@ -7,6 +7,8 @@ import { Checkout } from "./Checkout";
 import { FillInfoPage } from "./FillInfoPage";
 import { Continue } from "./Continue";
 import { VerifyCheckout } from "./VerifyCheckout";
+import { Finish } from "./Finish";
+import { VerifyFinalMessage } from "./VerifyFinalMessage";
 export class ActionClass {
   constructor() {
     this.Login = Login;
@@ -16,6 +18,8 @@ export class ActionClass {
     this.FillInfoPage = FillInfoPage;
     this.Continue = Continue;
     this.VerifyCheckout = VerifyCheckout;
+    this.Finish = Finish;
+    this.VerifyFinalMessage = VerifyFinalMessage;
   }
 }
 

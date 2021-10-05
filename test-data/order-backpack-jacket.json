@@ -2,47 +2,57 @@
     "data": {
         "Login": [
             {
-                "username": ""
+                "username": {"value":"standard_user"},
+                "password": {"value":"secret_sauce"},
+                "loginBtn": {"value": "click"}
             }
         ],
         "SelectProduct": [
             {
-                
+                "backpack": {"value": "click"},
+                "jacket": {"value": "click"}
             }
         ],
         "OpenCart": [
             {
-                
+                "cartLink": {"value": "click"}
             }
         ],
         "Checkout": [
             {
-                
+                "checkoutBtn": {"value": "click"}
             }
         ],
         "FillInfoPage": [
             {
-                
+                "firstName": {"value": "Test"},
+                "lastName": {"value": "User"},
+                "postalCode": {"value": "12345"}
             }
         ],
         "Continue": [
             {
-                
+                "continueBtn": {"value": "click"}
             }
         ],
         "VerifyCheckout": [
             {
-                
+                "itemName": {"assert":"visible", "assert_value": "Sauce Labs Backpack"},
+                "itemPrice": {"assert":"visible", "assert_value": "$29.99"},
+                "itemName1": {"assert":"visible", "assert_value": "Sauce Labs Fleece Jacket"},
+                "itemPrice1": {"assert":"visible", "assert_value": "$49.99"},
+                "total": {"assert":"visible", "assert_value": "Total: $86.38"}
             }
         ],
         "Finish": [
             {
-                
+                "finishBtn": {"value": "click"}
             }
         ],
         "VerifyFinalMessage": [
             {
-                
+                "finalMessageHeader": {"assert_value":"THANK YOU FOR YOUR ORDER"},
+                "finalMessageText": {"assert_value":"Your order has been dispatched, and will arrive just as fast as the pony can get there!"}
             }
         ]
     }
