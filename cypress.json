@@ -1,5 +1,0 @@
-{
-    "baseUrl": "https://www.saucedemo.com/",
-    "integrationFolder": "./test-suite",
-    "chromeWebSecurity": false
-}
